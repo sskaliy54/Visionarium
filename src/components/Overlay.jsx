@@ -160,7 +160,7 @@ export const Gallery = () => {
   ];
 
   return (
-<div style={{ width: isMobile ? '100vw' : '110vw', height: isMobile ? '100vh' : '110vh', transform: isMobile ? 'translate(0%, 0%)' : 'translate(-33.5%, 20%)', background: "radial-gradient(at -25% 35%, #2b2b42 0%, #14141d 40%, #06080c 80%, #06193d 100%)" }}>
+<div style={{ width: isMobile ? '100vw' : '110vw', height: isMobile ? '100vh' : '110vh', transform: isMobile ? 'translate(0%, 0%)' : 'translate(-35.5%, 20%)', background: "radial-gradient(at -25% 35%, #2b2b42 0%, #14141d 40%, #06080c 80%, #06193d 100%)" }}>
   <Canvas dpr={[1, 1.5]} camera={{ fov: 60, position: [-1, 2, 15] }}>
     <color attach="background" args={['#191920']} />
     <Stars radius={100} depth={100} count={5000} factor={5} />
